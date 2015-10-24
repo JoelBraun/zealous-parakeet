@@ -1,0 +1,16 @@
+Todo for Javascript backend as part of event hub:
+-Ability to add and remove items is provided by the RPi, so that goes on there.
+-Javascript backend takes Item Names, I/O state, number of hours up, and calculates uptime total cost based on stored value from RPi.
+
+To accomplish:
+- Build Javascript backend capable of doing these calculations
+- Build Universal App for RPi capable of holding and transmitting this data
+- Build out event hub that allows data send and receipt of on/off state and uptime/downtime 
+
+Getting Started with Event Hubs:
+https://azure.microsoft.com/en-us/documentation/articles/event-hubs-csharp-ephcs-getstarted/
+
+How to use the Windows Azure Relay Service Bus:
+https://azure.microsoft.com/en-us/documentation/articles/service-bus-dotnet-how-to-use-relay/
+
+Add card to Microsoft Azure billing and setup message bus. Get connection going between a web and universal application. asdfasdfasdfasdfasdfasdfasdf

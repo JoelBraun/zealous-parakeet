@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<title>Windows 10 IOT Core Demonstration Application</title>
+<style type="text/css">
+	
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #ffffff;
+	background-color: #712a80;
+	width:100%; 
+	margin: 0; 
+	padding:0; 
+	border:0;
+}
+
+#bodypanel {
+	margin-left:20%; 
+	position: absolute; 
+	top:80px; 
+	height: calc(100% - 80px); 
+	width: 80%; 
+	background-color: #433d45;
+	
+}
+
+#bodypanel p{
+	padding-left: 2em;
+}
+
+#bodypanel h3{
+	padding-left: 1em;
+}
+#bodypanel .data h4{
+	float: left;
+
+}
+
+#bodypanel .data h4{
+
+	margin:auto;
+	float: none;
+}
+
+#bodypanel .data{
+	margin-top: 3%;
+	float:left;
+	margin-right: 2em;
+}
+
+
+#sidebar h2{
+	padding-left: 1em;
+}
+
+#sidebar li{
+	
+	list-style-type: none;
+	padding-top: 1em;
+	
+}
+
+
+li {
+	list-style-type: none;
+}
+
+#sidebar a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+#sidebar a:hover{
+	color: #067375;
+}
+
+
+#sidebar p{
+	padding-left: 2em;
+}
+
+#sidebar {
+	width: 20%; 
+	position: absolute; 
+	top:80px; 
+	float:left; 
+	height: calc(100% - 80px);
+	background-color: #5b0675;
+}
+
+#header {
+	height: 80px; 
+	width: 100%; 
+	top:0; 
+	position:absolute;
+}
+
+#header h1{
+	padding-left: 1em;
+	
+}
+
+
+</style>
+
+<!-- Switch item text -->
+<style type="text/css">
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 0px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 26px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #2E8DEF; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #CCCCCC; color: #333333;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 25px; margin: 0px;
+    background: #000000;
+    position: absolute; top: 0; bottom: 0;
+    right: 65px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+</style>
+
+<html>
+	
+	<body>
+		<div id="header">
+			<h1>Windows 10 IOT Core Demonstration Application</h1>
+		</div>
+
+		<div id="sidebar">
+			<h2>Devices</h2>
+			<ul>
+				<li><a href="a">Desk Lamp</a></li>
+				<li><a href="a">IBM RS/6000</a></li>
+				<li><a href="a">Cray XC-30</a></li>
+				<li><a href="a">Toaster</a></li>
+			</ul>
+		</div>
+		<div id="bodypanel">
+			<h3>Device: Light I/O 3</h3>
+			<p>Location: West Veranda, Floor 2</p>
+			<p><a href="SampleData.json"/></p>
+			<div class="onoffswitch" style="margin-left: 2em; float:left;">
+    			<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    			<label class="onoffswitch-label" for="myonoffswitch">
+        		<span class="onoffswitch-inner"></span>
+        		<span class="onoffswitch-switch"></span>
+    			</label>
+			</div>
+
+
+			<div class="data">
+			<ul>
+			<li><h4>Estimated Energy Cost ($/Month)</h4></li>
+			<li><h1>$50</h1></li>
+			</ul>
+			</div>
+
+			<div class="data">
+			<ul>
+			<li><h4>Days Uptime</h4></li>
+			<li><h1>50</h1></li>
+			</ul>
+			</div>
+			
+			<div class="data">
+			<ul>
+			<li><h4>Scheduled On/Off Times</h4></li>
+			<li><div style="align:center;"><h1>Test</h1></div></li>
+			</ul>
+			</div> 
+
+		</div>
+		</div>
+	</body>
+	
+	<footer>
+		
+	</footer>
+	
+	
+</html>
