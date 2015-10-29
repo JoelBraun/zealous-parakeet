@@ -8,9 +8,13 @@ header, body, footer {
    }
  }
 
-#slide-out {
+#nav-mobile {
   background-color: #000000;
   color: #ffffff;
   font-family: "Segoe UI", sans-serif;
   font-size: 40px;
+}
+
+#mainlogo {
+  align-content: center;;
 }
