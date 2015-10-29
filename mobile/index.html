@@ -15,6 +15,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="simple-sidebar.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
     <!-- Custom CSS -->
 
 
@@ -27,7 +28,7 @@
 
 </head>
 
-<body>
+<body onresize="resize">
 
     <div id="wrapper">
 
@@ -71,10 +72,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-
                     </div>
                 </div>
             </div>
+            <p id="ftcaption">Railroad Bridge, San Luis Obispo, CA</p>
         </div>
         <!-- /#page-content-wrapper -->
 
@@ -95,6 +96,16 @@
         $("#wrapper").toggleClass("toggled");
         $("#menu-toggle").hide;
     });
+    </script>
+    <script>
+    window.onresize = function(event) {
+       if ($(window).width > 768) {
+         $("#ftcaption").text = "Avila Bay, California"
+       }
+       else {
+         $("#ftcaption").text = "Railroad Bridge, San Luis Obispo, CA"
+       }
+    };
     </script>
 
 </body>
