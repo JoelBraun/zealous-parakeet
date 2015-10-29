@@ -4,6 +4,7 @@
   "dependencies": {
     "express": "*",
     "bootstrap": "*",
-    "fullpage.js": "*"
+    "fullpage.js": "*",
+    "materialize-css": "*"
   }
 }
