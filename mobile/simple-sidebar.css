@@ -14,7 +14,7 @@ body {
 #ftcaption {
   position: fixed;
   bottom: 0;
-  right: .25em;
+  right: .4em;
   font-size: .5em;
   color:#ffffff;
 }
@@ -111,8 +111,35 @@ body {
 
 #menu-toggle {
   cursor: pointer;
-  top: 0px;
+  top: .5em;
   position: fixed;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 5em;
+}
+
+.subtitle {
+  color:#ffffff;
+  font-size: 2em;
+}
+
+.subtitle a {
+  text-decoration: none;
+}
+.subtitle a {
+
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 @media(max-width:768px) {

@@ -40,22 +40,16 @@
                 <li class="sidebar-brand">
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="index.html"></a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#">Web</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
-                </li>
-                <li>
-                    <a href="#">Events</a>
+                    <a href="#">Mobile</a>
                 </li>
                 <li>
                     <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
                 </li>
                 <li>
                     <a href="#">Contact</a>
@@ -67,11 +61,14 @@
         <!-- Page Content - all page content must go in here.-->
         <div id="page-content-wrapper">
           <!-- <button type="button" class="btn btn-default btn-lg"> -->
-            <span class="glyphicon glyphicon-menu-hamburger" id="menu-toggle" aria-hidden="true"></span>
+            <div id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
           <!-- </button> -->
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                      <div class="name">Joel</div>
+                      <div class="name">Braun</div>
+                      <p class="subtitle"> <a href="projects.html">Mobile and Web Developer > </a></p>
                       <p id="ftcaption">Railroad Bridge, San Luis Obispo, CA</p>
                   </div>
                     </div>
@@ -95,16 +92,15 @@
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
-        $("#menu-toggle").hide;
     });
     </script>
     <script>
     $(window).resize(function() {
        if ($(window).width > 768) {
-         $("#ftcaption").text = "Avila Bay, California";
+         $("#ftcaption").text("Avila Bay, California");
        }
        else {
-         $("#ftcaption").text = "Railroad Bridge, San Luis Obispo, CA";
+         $("#ftcaption").text("Railroad Bridge, San Luis Obispo, CA");
        }
     };
     </script>
