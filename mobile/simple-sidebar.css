@@ -147,6 +147,7 @@ a:hover {
       background-image: url("../imgs/mobilebackground.jpg");
       background-size: cover;
       background-repeat: no-repeat;
+      overflow-x: hidden;
     }
 }
 
@@ -187,5 +188,6 @@ a:hover {
     body {
       background-image: url("../imgs/background.jpg");
       background-size: cover;
+
     }
 }
