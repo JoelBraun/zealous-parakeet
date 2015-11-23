@@ -11,6 +11,10 @@ body {
   font-size: 2.25em;
 }
 
+html {
+  padding-bottom:  80px;
+}
+
 #ftcaption {
   position: fixed;
   bottom: 0;
