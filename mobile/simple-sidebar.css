@@ -145,7 +145,7 @@ a:hover {
 @media(max-width:768px) {
     body{
       background-image: url("../imgs/mobilebackground.jpg");
-      background-size: cover;
+      background-size: inherit;
       background-repeat: no-repeat;
       overflow-x: hidden;
     }
