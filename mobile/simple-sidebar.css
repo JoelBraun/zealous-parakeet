@@ -24,8 +24,7 @@ html {
 }
 
 #wrapper {
-    position: absolute;
-    left: 0;
+    padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -33,7 +32,7 @@ html {
 }
 
 #wrapper.toggled {
-    left: 200px;
+    padding-left: 200px;
 }
 
 #sidebar-wrapper {
