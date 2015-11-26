@@ -5,6 +5,7 @@
     "express": "*",
     "bootstrap": "*",
     "fullpage.js": "*",
-    "materialize-css": "*"
+    "materialize-css": "*",
+    "jasny-bootstrap": "*"
   }
 }
