@@ -27,3 +27,16 @@ body {
     border: none;
   }
 }
+
+@media (max-width: 768px) {
+    body {
+        background: url(imgs/mobilebackground.JPG);
+        background-size: cover;
+    }
+}
+@media (min-width: 769px) {
+    body {
+        background: url(imgs/background.jpg);
+        background-size: cover;
+    }
+} 
