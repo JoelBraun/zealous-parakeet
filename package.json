@@ -4,6 +4,7 @@
   "dependencies": {
     "express": "*",
     "bootstrap": "*",
-    "jasny-bootstrap": "*"
+    "jasny-bootstrap": "*",
+    "fullpage.js": "2.7.7"
   }
 }
