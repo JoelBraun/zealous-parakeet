@@ -14,11 +14,36 @@ body {
 }
 
 h2 {
-    font-size: 7em;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    
 }
 
 h3 {
-    font-size: 3em;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.me {
+    margin: auto;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_main {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media (min-width: 0) {
@@ -49,10 +74,10 @@ h3 {
         background: url(imgs/background.jpg);
         background-size: cover;
     }
-}
-
-@media (min-width 769px) {
-    li a{
-      font-size: 50px;
-   }
+    h3 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 7em;
+    }
 }
